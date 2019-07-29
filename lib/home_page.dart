@@ -55,8 +55,10 @@ class HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     //final WordPair = prefix0.WordPair.random();
     return Scaffold(
+      backgroundColor: Colors.black45,
+
       appBar: AppBar(
-        title: Text("Calc Boyzz"),
+        title: Text("Standard Calc"),
       ),
       body: Container(
         padding: const EdgeInsets.all(40.0),
@@ -79,11 +81,19 @@ class HomePageState extends State<HomePage> {
               keyboardType: TextInputType.number,
               decoration: InputDecoration(hintText: "Enter a number"),
               controller: t1,
+              style: TextStyle( fontSize: 20.0,
+              fontWeight: FontWeight.bold,
+              color: Colors.amber,
+              ),
             ),
             TextField(
               keyboardType: TextInputType.number,
               decoration: InputDecoration(hintText: "Enter a number"),
               controller: t2,
+              style: TextStyle( fontSize: 20.0,
+              fontWeight: FontWeight.bold,
+              color: Colors.amber,
+              ),
             ),
             Padding(
               padding: const EdgeInsets.only(top: 40.0),

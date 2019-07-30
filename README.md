@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## Snapshot
 
-https://user-images.githubusercontent.com/39448332/62134933-a5c44580-b2e1-11e9-91e7-b2b2de627dd8.png
+https://github.com/beingRD/Flutter-Calc-v2/issues/1#issue-474597286
 
 ## Getting Started
 
